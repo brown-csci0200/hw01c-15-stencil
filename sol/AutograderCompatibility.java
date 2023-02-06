@@ -3,14 +3,16 @@ package sol;
 import src.*;
 import sol.HorseUtils;
 
+/**
+ * A class that tests whether your submission meets
+ * the specifications of our autograder.
+ */
 public class AutograderCompatibility {
-    /**
-     * A class that tests whether your submission meets
-     * the specifications of our autograder.
-     */
+
 
     /**
      * The main method of the autograder compatibility check.
+     * @param args Unused
      *  TODO: Uncomment the body of the main method.
      *  (in IntelliJ, you can select all commented lines
      *  and press COMMAND+/ or CONTROL+/)

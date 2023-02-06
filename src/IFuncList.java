@@ -1,10 +1,15 @@
 package src;
 
 import java.util.function.Function;
+
+/**
+ * A functional list
+ * @param <T>
+ */
 public interface IFuncList<T> {
     /**
      *
-     * @param elem: the element to add to the front of the list
+     * @param elem the element to add to the front of the list
      * @return a new list with elem followed by existing contents
      */
     public FuncList<T> link(T elem);
@@ -38,14 +43,14 @@ public interface IFuncList<T> {
 
     /**
      *
-     * @param otherFL: the list whose items should append to this one
+     * @param otherFL the list whose items should append to this one
      * @return a new FuncList with the contents of this followed by otherFL
      */
     public FuncList<T> append(FuncList<T> otherFL);
 
     /**
      *
-     * @param pred: a function from one element to boolean, indicating
+     * @param pred a function from one element to boolean, indicating
      *            whether the element should appear in the output list
      * @return a list of all elements (in order) for which the given
      * function input returns true
@@ -54,17 +59,17 @@ public interface IFuncList<T> {
 
     /**
      *
-     * @param transform: a function that returns some value on a single
+     * @param transform a function that returns some value on a single
      *                 element of the list
      * @return a list of the results of calling the provided function on
      * each element of the input list, in order
-     * @param <R>: the type of element in the output list
+     * @param <R> the type of element in the output list
      */
     public <R> IFuncList<R> map(Function<T,R> transform);
 
     /**
      *
-     * @param pred: a function from one element to boolean
+     * @param pred a function from one element to boolean
      * @return the longest prefix of the list for which
      * the given function is true for every element in the prefix
      */
