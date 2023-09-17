@@ -1,7 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="CheckStyle" enabled="true" level="Style issue" enabled_by_default="true" editorAttributes="Style issue" />
+    <inspection_tool class="CheckStyle" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
     <inspection_tool class="FieldNamingConvention" enabled="true" level="Style issue" enabled_by_default="true" editorAttributes="Style issue">
       <extension name="ConstantNamingConvention" enabled="true">
         <option name="m_regex" value="[A-Z][A-Z_\d]*" />
@@ -32,7 +32,7 @@
       <option name="m_minLength" value="1" />
       <option name="m_maxLength" value="20" />
     </inspection_tool>
-    <inspection_tool class="MissingJavadoc" enabled="true" level="Style issue" enabled_by_default="true" editorAttributes="Style issue">
+    <inspection_tool class="MissingJavadoc" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES">
       <option name="PACKAGE_SETTINGS">
         <Options>
           <option name="ENABLED" value="false" />
@@ -106,7 +106,7 @@
       <option name="m_minLength" value="0" />
       <option name="m_maxLength" value="0" />
     </inspection_tool>
-    <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="Style issue" enabled_by_default="true" editorAttributes="Style issue" />
-    <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="Style issue" enabled_by_default="true" editorAttributes="Style issue" />
+    <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
+    <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
   </profile>
 </component>

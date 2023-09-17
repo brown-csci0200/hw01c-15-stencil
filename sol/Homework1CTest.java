@@ -1,6 +1,8 @@
 package sol;
 
+import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Test;
 import src.*;
 
 
@@ -28,4 +30,9 @@ public class Homework1CTest {
     }
 
     // TODO: write tests
+    @Test
+    public void testExample() {
+        Assert.assertEquals(2, 1 + 1);
+    }
+
 }
