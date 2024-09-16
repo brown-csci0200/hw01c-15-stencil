@@ -38,6 +38,10 @@ public class HorseNode implements IHorseTree {
         for (int i = 0; i < indent; i++) {
             builder += "    ";
         }
+        builder += "    color=" + horse.color() + "\n";
+        for (int i = 0; i < indent; i++) {
+            builder += "    ";
+        }
         if (momTree == null) {
             builder += "    momTree=null\n";
         } else {
